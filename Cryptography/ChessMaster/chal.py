@@ -29,11 +29,3 @@ def encrypt(flag):
 
         value.append(''.join(f'{file}{rank}'))
     return value
-
-
-message="CyberX{m4teIn1rip}"
-try:
-    print(encrypt(message))
-except:
-    print("Error: Message contains characters not in the mapping.")
-
